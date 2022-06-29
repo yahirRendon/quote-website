@@ -1,0 +1,38 @@
+
+[
+    {
+        "id": 0,
+        "quote": "We become what we think about.",    
+        "author": "Earl Nightingale"
+    },
+    {
+        "id": 1,
+        "quote": "A clear vision, backed by definite plans, gives you a tremendous feeling of confidence and personal power.",    
+        "author": "Brian Tracy"
+    },
+    {
+        "id": 2,
+        "quote": "Setting goals is the first step in turning the invisible into the visible.",    
+        "author": "Tony Robbins"
+    },
+    {
+        "id": 3,
+        "quote": "What would you attempt to do if you knew you could not fail?",    
+        "author": "Robert H. Schuller"
+    },
+    {
+        "id": 4,
+        "quote": "Happiness is not something you postpone for the future; it is something you design for the present.",    
+        "author": "Jim Rohn"
+    },
+    {
+        "id": 5,
+        "quote": "A woman with a voice is, by definition, a strong woman.",    
+        "author": "Melinda Gates"
+    },
+    {
+        "id": 6,
+        "quote": "Fearlessness is like a muscle. I know from my own life that the more I exercise it the more natural it becomes to not let my fears run me",    
+        "author": "Arianna Huffington"
+    }
+]

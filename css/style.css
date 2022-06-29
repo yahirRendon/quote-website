@@ -1,0 +1,283 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    margin: 2.5vw 5vw;
+}
+  
+  /* ********** *************** ********** */
+  /* ********** NAVIGATION MENU ********** */
+  /* ********** *************** ********** */
+  .n_a {grid-area: n_a; font-size: x-large; display:flex; align-content: center; align-items: center; }
+  .n_b {grid-area: n_b; }
+  .n_c {grid-area: n_c; }
+  .n_d {grid-area: n_d; }
+  .n_e {grid-area: n_e; display:flex; justify-content: flex-end; align-items: center; font-size: xx-large;}
+  
+  .e_nav {
+    /* display: none; */
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .wrap_nav {
+    grid-area: w_n;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "n_a n_e"
+                         "n_b n_b"
+                         "n_c n_c"
+                         "n_d n_d";
+  }
+  
+  .wrap_nav a {
+    text-decoration: none;
+    color:#000;
+  }
+  
+  .wrap_nav a:hover {
+    text-decoration: none;
+    color: var(--blue);
+  }
+
+/********** **************** ***********/
+/********** ** Quote Area ** ***********/
+/********** **************** ***********/
+.m_a {
+    grid-area: m_a;
+    display:grid;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: .75rem;
+
+}
+.m_b {
+    grid-area: m_b;
+    display:grid;
+    justify-content: center;
+    padding: 1rem;
+    font-size: .5rem;
+}
+
+.w_main {
+    grid-area: w_main;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-areas: ". m_a ." ". m_b .";
+    /* border: 1px solid blue; */
+    margin: 2rem 0;
+    height: 80vh;
+    background-image: url("../img/cesar-couto-27HiryxnHJk-unsplash.jpg");
+	border-radius: 5px;
+  	background: no-repeat center center cover;
+    cursor: pointer;
+    text-align: center;
+}
+
+/********** ***************** ***********/
+/********** ** Source Area ** ***********/
+/********** ***************** ***********/
+.s_a {
+    grid-area: s_a;
+    display:grid;
+    justify-content: flex-end;
+}
+
+.s_b {
+    grid-area: s_b;
+    display:grid;
+    justify-content: flex-start;
+    
+}
+
+.e_source {
+    margin: 0 .5em;
+}
+
+.w_source {
+    grid-area: w_source;
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-areas: ". s_a s_b .";
+    
+}
+
+#base {
+   
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+#user {
+    
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+#base:hover,
+#user:hover {
+    border: 2px solid black;
+}
+
+/********** ****************** ***********/
+/********** ** Visitor Area ** ***********/
+/********** ****************** ***********/
+
+.form_holder {
+    display: grid;
+    height: 80vh;
+    /* border: 1px solid red; */
+    align-items: flex-start;
+}
+
+.v_a {
+    grid-area: v_a;
+    /* display:grid;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.5em; */
+}
+.v_b {
+    grid-area: v_b;
+    /* display:grid;
+    justify-content: center; */
+}
+.v_c {
+    grid-area: v_c;
+    /* display:grid;
+    justify-content: center; */
+
+}
+/* not sure if I will be using these */
+/* .v_d { */
+    /* grid-area: v_d; */
+    /* display:grid;
+    justify-content: center; */
+
+/* } */
+/* .v_e { */
+    /* grid-area: v_e; */
+    /* display:grid;
+    justify-content: center; */
+
+/* } */
+.v_f {
+    grid-area: v_f;
+    display:grid;
+    justify-content: center; 
+
+}
+.title_1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.v_title {
+    grid-area: v_title;
+    display:grid;
+    text-align: center;
+    justify-content: center; 
+    font-size: 1.5em;
+}
+.e_visitor {
+    margin: 1em 0;
+    text-align: center;
+    
+}
+
+.a_a{grid-area: a_a;}
+.e_about {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.about_wrapper {
+    display: grid;
+    grid-template-columns:  10% 80% 10%;
+    /* grid-template-rows: */
+    grid-template-areas: ". a_a .";
+}
+
+.v_a span,
+.v_b span {
+    display: grid;
+    /* grid-template-columns: 100%; */
+    justify-content: flex-end;
+}
+.w_visitor {
+    grid-area: w_visitor;
+    display: grid;
+    grid-template-columns: 50vw;
+    /* grid-template-areas: ". v_a ." ". v_b ." ". v_c ." ". v_d ." ". v_e ." ". v_f ."; */
+    /* grid-template-areas: "v_title" "v_a" "v_b" "v_c" "v_d" "v_e" "v_f"; */
+    grid-template-areas: "v_title" "v_a" "v_b" "v_c" "v_f";
+    font-size: .5rem;
+}
+
+textarea, 
+input {
+	border: none;
+    border-bottom: 1px solid gray;
+	width: 100%;
+	height: 1.5em;
+	overflow:auto;
+    outline: none;
+}
+
+#add_button {
+    font-size: 2em;
+    margin: .5em;
+    border: none;
+    color: black;
+    background-color: lightgray;
+    border-radius: 5px;
+    transition: 250ms;
+}
+
+#add_button:hover {
+    background-color: gray;
+    color: white;
+}
+
+/* ********** ************************* ********** */
+  /* ********** ***** LARGE SCREENS ***** ********** */
+  /* ********** ************************* ********** */
+  @media only screen and (min-width: 800px)   {
+
+    /* navigation bar */
+    .wrap_nav {
+      grid-area: w_n;
+      display: grid;
+      grid-template-columns: 100px 100px 100px 100px auto;
+      grid-template-areas: "n_a n_b n_c n_d n_e";
+    }
+  
+    .e_nav {
+      display: none;
+      align-items: center;
+      margin-top: 0;
+    }
+
+    /* quote section */
+    .m_a {
+        font-size: 1.5rem;
+    }
+
+    .m_b {
+        font-size: 1rem;
+    }
+
+    /* vistior section */
+
+    /* about section */
+    .w_visitor {
+        font-size: 1.5rem;
+    }
+  }
