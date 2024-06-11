@@ -1,7 +1,7 @@
 <h1 align="center">Quote Website</h1>
 
 <p align="center">
-This is a pet project of mine to create a page of quote that can servie to encourage and/or remind myself and others what we are here to do. I like the minimal layout and aesthetic I've created. Presently only built in or base quotes are viewable.
+This is a pet project of mine to create a page of quote that can serve to encourage and/or remind myself and others what we are here to do. I like the minimal layout and aesthetic I've created. Presently only built in or base quotes are viewable.
 </p>
 
 # To Do
